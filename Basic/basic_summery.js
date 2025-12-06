@@ -36,3 +36,36 @@ const myFunction = function(){
 console.log(typeof subjects);
 console.log(typeof myData);
 console.log(typeof myFunction);
+
+
+
+// +++++++++++++++++++++++++++ Memory in js +++++++++++++++++++++++++++++++
+
+// There are two types of memory in js 
+// 1. Stacke memory( Primitive data types)
+// Stack memory gets a copy of variable (not the same memory)
+
+let myName = "Ankit Thakur";
+anotherName = myName;
+anotherName = "Anki";
+
+console.log(myName);
+console.log(anotherName);
+
+// In this code it can show the main value cant changed but copy value change;
+
+// 2. Heap ( Non - Primitive data types)
+// Haep memory get a copy of the reference (same memory).
+
+let user = {
+    name :"Ankit Thakur",
+    id:"at667448@gmail.com",
+    age:24,
+    logedIn:false
+}
+
+let user2 = user;
+user2.id = "ankit@codesdesk.com";
+
+console.log(user);
+console.log(user2);
