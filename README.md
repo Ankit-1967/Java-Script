@@ -1,1 +1,1 @@
-
+Here is a JavaScript practice note created by Ankit from the 'Chai Aur Code | JavaScript' series by Mr. Hitesh Chaudhary
