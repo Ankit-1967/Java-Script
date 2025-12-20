@@ -32,15 +32,23 @@ const obj3 = { ...obj1, ...obj2 };
 
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));
 
+
+
+
+
+// Object destructuring
 const course = {
   coursename: "js in hindi",
   price: 999,
   courseInstructor: "hitesh"
 };
 
-// course["courseInstructor"]
+// course.courseInstru
 
 // const { courseInstructor } = course;
 // console.log(courseInstructor);
 const { courseInstructor: instructor } = course;
 console.log(instructor);
+
+
+
